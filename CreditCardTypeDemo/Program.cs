@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CreditCardTypeDemo.FactoryMethodGenerat;
+using CreditCardTypeDemo.ProducatCard;
+using System;
 
 namespace CreditCardTypeDemo
 {
@@ -6,7 +8,11 @@ namespace CreditCardTypeDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IFactoryCreate obj = null;
+            obj = new MoneyBackManager(10, 1);
+            ICreditCardManger oj1= obj.Generatefactory();
+            oj1.display();
+            Console.ReadLine();
         }
     }
 }
