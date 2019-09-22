@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesginProblem", "DesginProblem\DesginProblem.csproj", "{55EFDA62-C3AA-4A28-BBC2-4C054C6F9106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractDesgin", "AbstractDesgin\AbstractDesgin.csproj", "{656EACCB-73F2-4575-A4D0-F9C88E8FAD4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55EFDA62-C3AA-4A28-BBC2-4C054C6F9106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EFDA62-C3AA-4A28-BBC2-4C054C6F9106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EFDA62-C3AA-4A28-BBC2-4C054C6F9106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EFDA62-C3AA-4A28-BBC2-4C054C6F9106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656EACCB-73F2-4575-A4D0-F9C88E8FAD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656EACCB-73F2-4575-A4D0-F9C88E8FAD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656EACCB-73F2-4575-A4D0-F9C88E8FAD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656EACCB-73F2-4575-A4D0-F9C88E8FAD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E7DA6AF-B5F4-4934-9CD6-E67D2AB5CEE7}
+	EndGlobalSection
+EndGlobal
